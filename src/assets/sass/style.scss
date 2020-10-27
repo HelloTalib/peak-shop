@@ -1,0 +1,54 @@
+/*========================================
+ Template Name: Peak-shops
+ Template URI:
+ Author: TALIB
+ Author URI: https://bdwebninja.com
+ Version: 1.0.0
+ Description: Peak-shops uikit template
+ Brand Color:   #fe6347, #48455a
+ Icon:          Flat Icon, Font Awesome
+ Text font:     Poppins
+ Tags:
+/* ========================
+
+**/
+// =================================
+// 1. custom variables overwrites.
+// =================================
+@import "abstracts/fonts.scss";
+@import "abstracts/variables.scss";
+
+// =================================
+// 2. Import default variables and available mixins.
+// =================================
+@import "vendors/uikit/variables-theme.scss";
+@import "vendors/uikit/mixins-theme.scss";
+
+// =================================
+// 3.custom mixin overwrites.
+// =================================
+@import "abstracts/mixins.scss";
+
+// =================================
+// 4. Import UIkit.
+// =================================
+@import "vendors/uikit/uikit-theme.scss";
+
+// =================================
+// 5. Import default styles.
+// =================================
+@import "base/base.scss";
+
+// =================================
+// 6. Import component styles.
+// =================================
+@import "component/component.scss";
+
+// =================================
+// 7. Import theme pages.
+// =================================
+@import "layout/layout.scss";
+// =================================
+// 8. Import theme pages.
+// =================================
+@import "pages/pages.scss";

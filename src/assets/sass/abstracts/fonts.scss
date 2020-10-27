@@ -1,0 +1,153 @@
+// google fonts
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap");
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kycqzj');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kycqzj#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?kycqzj') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?kycqzj') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?kycqzj##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-edit {
+  &:before {
+    content: $icon-edit;
+  }
+}
+.icon-pencil {
+  &:before {
+    content: $icon-pencil;
+  }
+}
+.icon-write {
+  &:before {
+    content: $icon-write;
+  }
+}
+.icon-writing {
+  &:before {
+    content: $icon-writing;
+  }
+}
+.icon-save {
+  &:before {
+    content: $icon-save;
+  }
+}
+.icon-eye {
+  &:before {
+    content: $icon-eye;
+  }
+}
+.icon-vision {
+  &:before {
+    content: $icon-vision;
+  }
+}
+.icon-view {
+  &:before {
+    content: $icon-view;
+  }
+}
+.icon-square {
+  &:before {
+    content: $icon-square;
+  }
+}
+.icon-americanexpress {
+  &:before {
+    content: $icon-americanexpress;
+    color: #2e77bc;
+  }
+}
+.icon-local_fire_department {
+  &:before {
+    content: $icon-local_fire_department;
+  }
+}
+.icon-shopping-bag {
+  &:before {
+    content: $icon-shopping-bag;
+  }
+}
+.icon-heart {
+  &:before {
+    content: $icon-heart;
+  }
+}
+.icon-search {
+  &:before {
+    content: $icon-search;
+  }
+}
+.icon-star-full {
+  &:before {
+    content: $icon-star-full;
+  }
+}
+.icon-rate {
+  &:before {
+    content: $icon-rate;
+  }
+}
+.icon-star {
+  &:before {
+    content: $icon-star;
+  }
+}
+.icon-favorite {
+  &:before {
+    content: $icon-favorite;
+  }
+}
+.icon-bookmark {
+  &:before {
+    content: $icon-bookmark;
+  }
+}
+.icon-phone {
+  &:before {
+    content: $icon-phone;
+  }
+}
+.icon-cc-mastercard {
+  &:before {
+    content: $icon-cc-mastercard;
+  }
+}
+.icon-cc-visa {
+  &:before {
+    content: $icon-cc-visa;
+  }
+}
+.icon-cc-stripe {
+  &:before {
+    content: $icon-cc-stripe;
+  }
+}
+.icon-cc-paypal {
+  &:before {
+    content: $icon-cc-paypal;
+  }
+}
+

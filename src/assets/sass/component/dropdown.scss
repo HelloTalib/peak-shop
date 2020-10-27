@@ -1,0 +1,46 @@
+// .uk-navbar-dropdown {
+//   border-radius: 10px;
+//   width: 100%;
+// }
+[class*="uk-navbar-dropdown-bottom"] {
+  margin-top: 0px !important;
+}
+
+.uk-dropdown,
+.uk-drop-grid {
+  position: relative;
+  width: 100%;
+}
+.uk-navbar-dropdown,
+.uk-drop {
+  border: 1px solid #999;
+
+  &:before {
+    content: "\005E";
+    position: absolute;
+    top: -20px;
+    left: 18%;
+    width: 0px;
+    height: 0px;
+    font-size: 30px;
+    color: #999;
+    // border-top: 10px solid black;
+    // border-left: 8px solid transparent;
+    // border-right: 8px solid transparent;
+    // border-bottom: none;
+    // background-color: red;
+    // border-width: 0 8px 10px 8px;
+    // border-style: solid;
+    // border-color: transparent transparent #fff;
+  }
+}
+.uk-navbar-dropdown-nav {
+  & > li {
+    & > a {
+      font-size: 14px;
+      line-height: 21px;
+      font-weight: 400;
+      padding: 5px 0px;
+    }
+  }
+}

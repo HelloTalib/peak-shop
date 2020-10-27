@@ -1,0 +1,52 @@
+#footer{
+    .el-content{
+        font-size: 14px;
+        line-height: 23.8px;
+        font-weight: 400;
+        margin: 0px 0px 16px;
+
+    }
+    .label{
+        font-size: 11px;
+        line-height: 13.2px;
+        margin: 0px 0px 10px;
+        font-weight: 500;
+    }
+    h3.uk-h4{
+        font-size: 12px;
+        line-height: 12px;
+        margin: 0px 0px 15px;
+        font-weight: 600;
+
+    }
+    .uk-nav{
+        margin-top: 20px;
+        li{
+            a{
+                font-size: 14px;
+                line-height: 23.8px;
+                font-weight: 400;
+                margin: 0;
+                padding: 2px 0px;
+                &:hover{
+                    color: $global-link-color;
+                }
+            }
+        }
+    }
+}
+#footer-bottom{
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 20.4px;
+    font-weight: 400;
+    // border: 1px solid red;
+
+}.footer-icon{
+    // background: red;
+    // width: 35px;
+    padding: 3px 10px;
+    border: 1px solid #eee;
+    font-size: 16px;
+    color:#4F4F4F;
+}

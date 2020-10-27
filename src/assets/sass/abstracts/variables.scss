@@ -1,0 +1,92 @@
+// ===========================
+//GLOBAL SETTINGS
+// ===========================
+$global-font-family: 'Jost', sans-serif;
+$global-font-size: 16px;
+$base-body-font-weight: 400;
+$global-line-height: 1.5;
+
+// ===========================
+//COLOR & BACKGROUND
+// ===========================
+$global-color: #4f4f4f;
+// $global-background: #fcfcfc;
+// $global-primary-color: #fddf00;
+$global-primary-background: #CEBD9A;
+// $global-secondary-background: #4da4b0;
+// $icon-button-background:red;
+// $global-border-width: 200px;
+// $global-muted-color: #fddf00;
+
+// ===========================
+//LINK
+// ===========================
+$global-link-color: #121212;
+$base-link-hover-color: $global-primary-background;
+$base-link-hover-text-decoration: none;
+$tooltip-background:#000;
+// ===========================
+//BORDER
+// ===========================
+// $heading-bullet-border: $global-primary-background;
+// $global-border: $global-primary-background;
+
+// ===========================
+//SELECTION
+// ===========================
+// $base-selection-color: #212121;
+// $base-selection-background: #fffc16;
+
+// ===========================
+//HEADING
+// ===========================
+// $base-heading-font-family: "Roboto", sans-serif;
+// $base-heading-font-weight: 500;
+// $base-heading-color: #4e4b4b;
+// $heading-line-width:200px;
+// $heading-xlarge-font-size-l: 114px;
+// $heading-xlarge-font-size-m: 114px;
+// $heading-xlarge-font-size-s: 114px;
+
+// ===========================
+//CONTAINER
+// ===========================
+$container-large-max-width: 1280px;
+$container-medium-max-width: 1200px;
+
+// ===========================
+//OFFCANVAS
+// ===========================
+// $offcanvas-bar-background: #fff;
+
+// ===========================
+//  ICOMOON FONTS
+// ===========================
+$icomoon-font-family: "icomoon" !default;
+$icomoon-font-path: "../../assets/fonts" !default;
+
+$icon-edit: "\e908";
+$icon-pencil: "\e908";
+$icon-write: "\e908";
+$icon-writing: "\e908";
+$icon-save: "\e908";
+$icon-eye: "\e90f";
+$icon-vision: "\e90f";
+$icon-view: "\e90f";
+$icon-square: "\e900";
+$icon-americanexpress: "\e901";
+$icon-local_fire_department: "\e906";
+$icon-shopping-bag: "\e907";
+$icon-heart: "\e909";
+$icon-search: "\e90d";
+$icon-star-full: "\e90b";
+$icon-rate: "\e90b";
+$icon-star: "\e90b";
+$icon-favorite: "\e90b";
+$icon-bookmark: "\e90b";
+$icon-phone: "\e90e";
+$icon-cc-mastercard: "\e902";
+$icon-cc-visa: "\e903";
+$icon-cc-stripe: "\e904";
+$icon-cc-paypal: "\e905";
+
